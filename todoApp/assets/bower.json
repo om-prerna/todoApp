@@ -1,0 +1,25 @@
+{
+  "name": "todoangularapp",
+  "authors": [
+    "Prerna(prernaj264@gmail.com)"
+  ],
+  "description": "todo sails angular application",
+  "main": "",
+  "license": "MIT",
+  "dependencies": {
+    "angular-bootstrap": "*",
+    "angular-moment": "*",
+    "angular-route": "*",
+    "angular-mocks": "*",
+    "angular": "*",
+    "jquery": "*",
+    "bootstrap": "*"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
