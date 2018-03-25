@@ -11,6 +11,7 @@ module.exports = {
             res.json(todos);
         });
     },
+    
     addTodo: function(req, res) {
         var todoVal = (req.body.value) ? req.body.value : undefined
         TodoService.addTodo(todoVal, function(success) {
